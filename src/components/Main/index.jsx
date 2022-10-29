@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Btn, BtnGray, BtnOrange, Container } from './style'
-
 const Main = () => {
     const [preState, setPreState] = useState('');
     const [curState, setCurState] = useState('');
